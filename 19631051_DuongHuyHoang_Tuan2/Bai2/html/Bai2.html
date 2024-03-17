@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2_Tuan2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        
+        #container {
+            clear: both;
+            width: 960px;
+            height: 800px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 10px;
+        }
+        
+        header {
+            background-image: url(../IMG/background.png);
+            margin: 15px;
+            color: aliceblue;
+        }
+        
+        #logo {
+            margin: 10px;
+            height: 130px;
+        }
+        
+        #hi1 {
+            margin-top: 15px;
+            width: 10%;
+        }
+        
+        #name {
+            left: 120px;
+            top: -80px;
+            position: relative;
+        }
+        
+        #p1 {
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        
+        #p2 {
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        
+        nav {
+            background-color: rgb(173, 173, 173);
+            height: 30px;
+        }
+        
+        a {
+            text-decoration: none;
+            margin: 20px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+        
+        nav a {
+            position: relative;
+            top: 5px;
+        }
+        
+        a:hover {
+            color: black;
+        }
+        
+        section {
+            margin-left: 30px;
+            height: 500px;
+            width: 65%;
+            float: left;
+            border-right: 1px solid rgb(192, 183, 183);
+        }
+        
+        #arti {
+            height: 270px;
+        }
+        
+        #border {
+            margin: 5px;
+            margin-right: 20px;
+            border: 1px solid rgb(215, 207, 207);
+            float: left;
+        }
+        
+        #hi2 {
+            margin: 5px;
+        }
+        
+        #ttm {
+            position: relative;
+            top: 20px;
+            margin-right: 10px;
+        }
+        
+        #p3 {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        
+        #p4 {
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        #p5 {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        
+        aside {
+            margin: 20px;
+            height: 500px;
+            width: 25%;
+            float: left;
+        }
+        
+        #arti2 {
+            margin-left: 13px;
+        }
+        
+        footer {
+            height: 50px;
+            margin: 15px;
+            background-color: rgb(173, 173, 173);
+            clear: both;
+        }
+        
+        #p6 {
+            color: white;
+            position: relative;
+            top: 25px;
+            left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <img src="../IMG/logo.png" alt="" id="hi1">
+
+                <div id="name">
+                    <p id="p1"><b>YOKO'S KITCHEN</b> </p>
+                    <p id="p2">JAPANESE COOKING CLASSES</p>
+                </div>
+            </div>
+
+            <nav>
+                <a href="#">home</a>
+                <a href="#">classes</a>
+                <a href="#">catering</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+            </nav>
+        </header>
+
+        <section>
+
+            <article id="arti">
+                <div id="border">
+                    <img src="../IMG/bokchoi.png" alt="" id="hi2" width="291px">
+                    <p>Bok Choi</p><br>
+                </div>
+
+                <div id="ttm">
+                    <p id="p3">Japanese Vegetarian</p>
+                    <p id="p4">Five week course in London</p>
+                    <br>
+                    <p id="p5">
+                        A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <div id="border">
+                    <img src="../IMG/teriyaki.jpg" alt="" id="hi2">
+                    <p>Teriyaki Sauce</p><br>
+                </div>
+
+                <div id="ttm">
+                    <p id="p3">Sauces Masterclass</p>
+                    <p id="p4">One day workshop</p>
+                    <br>
+                    <p id="p5">
+                        An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <aside>
+            <p id="p3" style="color: red;">Popular Recipies</p><br>
+            <article id="arti2">
+                <p id="p4">Yakitori (grilled chicken)</p><br>
+                <hr><br>
+                <p id="p4">Tsukune (minced chicken patties)</p><br>
+                <hr><br>
+                <p id="p4">Okonomiyaki (savory pancakes)</p><br>
+                <hr><br>
+                <p id="p4">Mizutaki (chicken stew)</p><br>
+                <hr>
+            </article>
+
+            <br>
+            <p id="p3" style="color: red;">Contact</p><br>
+            <p>Yoko's Kitchen</p>
+            <p>27 Redchurch Street</p>
+            <p>Shoreditch</p>
+            <p>London E2 7DP</p>
+        </aside>
+
+        <footer>
+            <p id="p6">@ 2011 Yoko's Kitchen</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1_Tuan2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        
+        #k1 {
+            width: 1000px;
+            height: 900px;
+            border: 1px solid gray;
+        }
+        
+        header {
+            width: 100%;
+            height: 150px;
+            border-bottom: 1px solid gray;
+        }
+        
+        h1 {
+            text-align: center;
+            line-height: 150px;
+            text-shadow: 15px 15px 2px pink;
+            color: brown;
+            font-size: 40px;
+            font-style: italic;
+        }
+        
+        #menu1 {
+            width: 100%;
+            height: 50px;
+            background-color: pink;
+        }
+        
+        #hi1 {
+            margin-left: 50px;
+        }
+        
+        #c1 li {
+            position: relative;
+            display: inline;
+            padding-left: 20px;
+            padding-right: 20px;
+            left: 100px;
+            top: -40px;
+            border-right: 2px solid blue;
+        }
+        
+        #c1 li a,
+        #c2 li a {
+            text-decoration-line: none;
+        }
+        
+        #ser,
+        #go {
+            position: relative;
+            top: -65px;
+            right: -600px;
+            height: 30px;
+        }
+        
+        #menu2 {
+            float: left;
+            width: 20%;
+            height: 600px;
+            margin-top: 20px;
+        }
+        
+        #c2 li {
+            list-style-type: none;
+            margin-bottom: 5px;
+            width: 200px;
+            background-color: pink;
+            height: 30px;
+            line-height: 30px;
+            margin-left: -40px;
+            border-radius: 10px;
+        }
+        
+        #c2 li a {
+            margin-left: 20px;
+        }
+        
+        section {
+            float: left;
+            width: 55%;
+            height: 600px;
+            margin-top: 20px;
+        }
+        
+        #hi2 {
+            border-radius: 50%;
+            width: 90%;
+            box-shadow: 10px 10px 40px red;
+            margin: 10px;
+        }
+        
+        h2 {
+            width: 60%;
+            background-color: pink;
+            color: brown;
+            text-align: center;
+            letter-spacing: 5px;
+        }
+        
+        table {
+            width: 97%;
+        }
+        
+        #text,
+        #se {
+            margin-top: 20px;
+            width: 200px;
+            height: 30px;
+        }
+        
+        #ar {
+            float: left;
+            width: 500px;
+        }
+        
+        a {
+            color: red;
+            margin-left: 10px;
+        }
+        
+        ins {
+            color: red;
+        }
+        
+        aside {
+            float: left;
+            width: 25%;
+            height: 600px;
+            background-color: black;
+        }
+        
+        #hi3 {
+            margin: 10px;
+            width: 90%;
+        }
+        
+        figure {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
+        h3,
+        h4,
+        p {
+            color: white;
+        }
+        
+        h3 {
+            font-weight: bold;
+            font-size: 25px;
+        }
+        
+        h4 {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        summary {
+            color: pink;
+        }
+        
+        footer {
+            background-color: pink;
+            width: 100%;
+            height: 80px;
+            clear: both;
+        }
+        
+        #end {
+            position: relative;
+            top: 20px;
+            left: 150px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="k1">
+        <header>
+            <h1 id="Top">EXAMPLE CAFE MENU</h1>
+        </header>
+        <nav id="menu1">
+            <img id="hi1" src="../IMG/icons8-home-50.png" alt="">
+
+            <ul id="c1">
+                <li>
+                    <a href="#"></a>STARTER</li>
+                <li>
+                    <a href="#"></a>MAIN COURSES</li>
+                <li>
+                    <a href="#"></a>DESSERTS</li>
+            </ul>
+            <input type="search" name="ser" id="ser">
+            <button type="submit" id="go">GO</button>
+        </nav>
+        <nav id="menu2">
+            <ul id="c2">
+                <li>
+                    <a href="#"></a>Cafe Latte</li>
+                <li>
+                    <a href="#"></a>Capuchino</li>
+                <li>
+                    <a href="#"></a>Ocean Blue</li>
+                <li>
+                    <a href="#"></a>Ice-cream Cafe</li>
+                <li>
+                    <a href="#"></a>Order Online</li>
+            </ul>
+
+            <img src="../IMG/company.png" alt="" id="hi2">
+        </nav>
+        <section>
+            <h2>Starters</h2>
+            <ul>
+                <li>Chestnut and Mushroom Goujons (<ins>v</ins>)</li>
+                <li>Goat Cheese Salad (<ins>v</ins>)</li>
+                <li>
+                    <p style="color: rgb(177, 177, 29);"><b>Honey Soy Chicken Kebabs</b>(<ins>v</ins>)</li>
+                </p>
+                <li>Seafood Salad(<ins>v</ins>)</li>
+            </ul>
+
+            <a href="#Top">Back to top</a>
+
+            <h2>Dessserts</h2>
+            <ul>
+                <li>Lemon Sorbet(<ins>v</ins>)</li>
+                <li>Chocolate Mud Pie (<ins>v</ins>)</li>
+                <li>Pecan Pie (<ins>v</ins>)</li>
+                <li>Selection of Fine Cheeses from Around the World(<ins>v</ins>)</li>
+            </ul>
+
+            <a href="#Top">Back to top</a>
+
+            <h2>INFORMATION</h2>
+            <table>
+                <tr>
+                    <td colspan="2"><input type="text" id="text" placeholder="First Name"></td>
+                    <td colspan="2"><input type="text" id="text" placeholder="Last Name"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="text" id="text" placeholder="Email"></td>
+                    <td colspan="2"><input type="text" id="text" placeholder="Telephone"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <select name="se" id="se">
+                            <option value="a">USA</option>
+                            <option value="b">VietNam</option>
+                            <option value="c">China</option>
+                            <option value="d">Italia</option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <input type="radio" name="radi" id="radi">Vietnamese
+                    </td>
+
+                    <td>
+                        <input type="radio" name="radi" id="radi">Foreigner
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="7">
+                        <textarea name="ar" id="ar" cols="50" rows="8">Comment</textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button type="submit">Submit</button>
+                        <button type="submit">Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <aside>
+            <div id="k2">
+                <h3>Events</h3>
+
+                <figure>
+                    <h4>Regular Meetings</h4>
+                    <img src="../IMG/meeting.png" alt="" id="hi3">
+
+                    <p>
+                        Host your regular team meetings or activities in the comfort of your own private room.
+                        <details>
+                            <summary>Read more..</summary>
+                            <p>Charge up on Kith's aromatic coffee and delectable dishes for that extra boost in your work!</p>
+                        </details>
+                    </p>
+
+                    <h4>Product Launches</h4>
+                    <img src="../IMG/company.png" alt="" id="hi3">
+
+                    <p>
+                        Launch your product with ease in a space that truly fits its image.
+                        <details>
+                            <summary>Read more..</summary>
+                            <p>Create an unforgettable experience for your guests with our spacious outlets! Whether you want to host an intimate celebration or launch an event for hundreds of guests, Kith's space is customisable to your needs
+                            </p>
+                        </details>
+                    </p>
+                </figure>
+            </div>
+        </aside>
+
+        <footer>
+            <p id="end"><i>ABC Company <sup>&#169;</sup> - 12345678 - abccoffee@gmail.com</i></p>
+        </footer>
+    </div>
+</body>
+
+</html>
